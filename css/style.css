@@ -25,7 +25,7 @@ nav{
     text-decoration:none;
     margin-left:25px;
     font-size:18px;
-    transition:0.3s;
+    transition:.3s;
 }
 
 .menu a:hover{
@@ -37,14 +37,11 @@ nav{
     padding:80px 20px;
 }
 
-.content{
-    padding:40px;
-}
-
 h1{
     font-size:48px;
 }
 
 p{
+    font-size:20px;
     color:#cccccc;
 }

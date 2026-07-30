@@ -46,14 +46,13 @@ p{
     color:#cccccc;
 }
 .banner{
-    background-image:url("../images/banner.png");
-    background-size:cover;
-    background-position:center;
+    background: url("https://taz00m.github.io/CommandaKun/images/banner.png") center center / cover no-repeat;
     height:400px;
 
     display:flex;
     justify-content:center;
     align-items:center;
+
 }
 
 .overlay{

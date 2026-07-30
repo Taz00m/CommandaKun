@@ -48,7 +48,7 @@ p{
 .banner{
     background-image:url("https://taz00m.github.io/CommandaKun/images/banner.png");
     background-size:cover;
-    background-position:center;
+    background-position:center 30%;
     height:550px;
 
     display:flex;

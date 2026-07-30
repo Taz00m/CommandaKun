@@ -46,7 +46,9 @@ p{
     color:#cccccc;
 }
 .banner{
-    background: url("https://taz00m.github.io/CommandaKun/images/banner.png") center center / cover no-repeat;
+    background-image:url("https://taz00m.github.io/CommandaKun/images/banner.png");
+    background-size:cover;
+    background-position:center;
     height:550px;
 
     display:flex;

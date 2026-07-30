@@ -46,16 +46,18 @@ p{
     color:#cccccc;
 }
 .banner{
+    width:100%;
+    min-height:500px;
+
     background-image:url("../images/banner.png");
+    background-repeat:no-repeat;
     background-size:cover;
-    background-position:center;
-    height:500px;
+    background-position:center center;
 
     display:flex;
     justify-content:center;
     align-items:center;
 }
-
 .overlay{
     background:rgba(0,0,0,.45);
     width:100%;

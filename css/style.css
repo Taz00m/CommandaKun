@@ -45,16 +45,7 @@ p{
     font-size:20px;
     color:#cccccc;
 }
-.banner{
-    position:relative;
-    width:100%;
-}
 
-.banner-image{
-    width:100%;
-    height:auto;
-    display:block;
-}
 
 .overlay{
     position:absolute;

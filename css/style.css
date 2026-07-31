@@ -4,7 +4,16 @@ body{
     background:#1b1b1b;
     color:white;
 }
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
 
+    background-image:url("../banner.png");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
 nav{
     background:#111;
     display:flex;
@@ -13,7 +22,10 @@ nav{
     padding:15px 40px;
     border-bottom:2px solid #b58b2a;
 }
-
+.background-overlay{
+    background:rgba(0,0,0,.55);
+    min-height:100vh;
+}
 .logo{
     font-size:28px;
     font-weight:bold;
@@ -45,8 +57,24 @@ p{
     font-size:20px;
     color:#cccccc;
 }
+.hero{
+    height:100vh;
 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+.overlay h1{
+    font-size:72px;
+    color:#d8b44c;
+    margin:0;
+}
 
+.overlay p{
+    font-size:28px;
+    color:white;
+}
 .overlay{
     position:absolute;
     inset:0;
